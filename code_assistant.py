@@ -2,7 +2,6 @@ import gradio as gr
 import openai
 import os
 from dotenv import load_dotenv
-from bert_score import score
 import time
 
 load_dotenv()
