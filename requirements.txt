@@ -1,5 +1,4 @@
 openai==0.28
 gradio
-os
 dotenv
 bert_score
