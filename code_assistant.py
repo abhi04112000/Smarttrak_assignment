@@ -76,4 +76,4 @@ with gr.Blocks() as demo:
     clear_button.click(lambda: [input_text.update(value=""), output_text.update(value=""), task_selection.update(value="Code Completion")], inputs=None, outputs=None)
 
 # Launching the interface
-demo.launch(share=True,port=8000)
+demo.launch(inbrowser=True, share=True, host="0.0.0.0", port=8000)
